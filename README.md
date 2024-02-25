@@ -1,7 +1,7 @@
 # Policy-based-RL-with-Catch
 
 ## Overview
-This repository contains a reinforcement learning environment, `Customizable Catch Environment`, developed by Thomas Moerland at Leiden University, The Netherlands. The environment is an extension of the Catch environment from the Behavioural Suite, where the objective is to control a paddle to catch falling balls.
+This repository contains a reinforcement learning algorithm training and playing on an environment of `Customizable Catch Environment`. The environment is an extension of the Catch environment from the Behavioural Suite, where the objective is to control a paddle to catch falling balls.
 
 ## Environment Description
 - **State Space**: The size of the environment grid can be adjusted with 'rows' and 'columns' arguments. The observation space can be a vector of xy-locations of the paddle and the lowest ball or a two-channel pixel array with the paddle location in the first channel and all balls in the second.
